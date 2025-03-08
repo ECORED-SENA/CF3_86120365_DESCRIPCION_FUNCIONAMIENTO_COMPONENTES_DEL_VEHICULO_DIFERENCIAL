@@ -54,7 +54,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Diagnóstico inicial de fallas',
+        titulo: 'Reparación del diferencial',
         desarrolloContenidos: true,
       },
     ],
@@ -245,7 +245,7 @@ export default {
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Leyson Fabian Castaño Perez',
+          nombre: 'Cielo Angulo',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
