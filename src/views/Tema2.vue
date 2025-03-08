@@ -359,6 +359,40 @@
             li
               i.fas.fa-arrow-circle-right
               | Reajustar todos los pernos y tuercas de regulación para garantizar que el ensamblaje cumpla con las especificaciones requeridas.
+
+
+    .titulo-tres(data-aos="flip-up").mb-5
+      h4 Comprobación de satélites y planetarios
+
+    p(data-aos="fade-up").mb-4 Tras desmontar y limpiar los componentes del diferencial, se debe realizar una inspección detallada de los piñones satélites y planetarios.
+
+    .row.align-items-stretch
+      .col-lg-6
+        .bg-color-8.px-4.pb-5.pt-4
+          h4(data-aos="fade-up").mb-4 Elementos a revisar
+          
+          ul.lista-ul--color(data-aos="fade-up").color-dark
+            li
+              i.fas.fa-arrow-circle-right
+              | Estado de las arandelas de regulación.
+            li
+              i.fas.fa-arrow-circle-right
+              | Desgaste o ralladuras en los dientes de los piñones.
+            li
+              i.fas.fa-arrow-circle-right
+              | Holguras entre los piñones satélites y planetarios.
+            
+        figure
+          img(src='@/assets/curso/tema2/14.png', alt='', style="max-width: 100%;")
+
+      .col-lg-6
+        .bg-color-1.p-4
+          .titulo-sexto.color-acento-contenido.mb-4
+            h5 Figura 9. 
+            span Comprobación del estado de piñones  
+
+          figure
+            img(src='@/assets/curso/tema2/f9.svg', alt='', style="max-width: 414px;").mx-auto
 </template>
 
 <script>
