@@ -393,6 +393,68 @@
 
           figure
             img(src='@/assets/curso/tema2/f9.svg', alt='', style="max-width: 414px;").mx-auto
+
+
+    p(data-aos="fade-up").my-4 El procedimiento de verificación es: 
+
+    .row.mb-4.align-items-stretch
+      .col-12.col-md-4.mb-4.mb-md-0
+        .tarjeta.bg-color-5.p-4.h-100
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/tema2/icon-2.svg", alt="", style="max-width: 90px;")
+            .col
+              p.mb-0.text-white Instalar los piñones en su posición.
+
+      .col-12.col-md-4
+        .tarjeta.bg-color-5.p-4.h-100
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/tema2/icon-2.svg", alt="", style="max-width: 90px;")
+            .col
+              p.mb-0.text-white Medir la holgura con un calibrador de láminas entre la superficie posterior del piñón y su alojamiento en el porta corona.
+
+      .col-12.col-md-4
+        .tarjeta.bg-color-5.p-4.h-100
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/tema2/icon-2.svg", alt="", style="max-width: 90px;")
+            .col
+              p.mb-0.text-white Si la holgura es excesiva, instalar rodelas de compensación con las mismas características de las originales.
+
+    p(data-aos="fade-up").my-5 Este proceso garantiza que los piñones trabajen de manera sincronizada, evitando movimientos indeseados y prolongando la vida útil del sistema diferencial.
+
+
+
+    .titulo-tres(data-aos="flip-up").mb-5
+      h4 Recomendaciones
+
+    .row.align-items-stretch
+      .col-lg-7
+        .bg-color-7.p-4.h-100
+          p.mb-4 Para garantizar un mantenimiento adecuado del diferencial, se deben seguir las siguientes recomendaciones:
+
+          ul.lista-ul--color(data-aos="fade-up").color-dark
+            li
+              i.fas.fa-arrow-circle-right
+              | Verificar el nivel de aceite regularmente y cambiarlo en el intervalo recomendado por el fabricante.
+            li
+              i.fas.fa-arrow-circle-right
+              | Usar el tipo de lubricante indicado por el fabricante.
+            li
+              i.fas.fa-arrow-circle-right
+              | Seguir estrictamente las recomendaciones del fabricante en cada reparación.
+            li
+              i.fas.fa-arrow-circle-right
+              | Realizar una prueba de carretera después de completar la reparación para verificar su correcto funcionamiento.
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/tema2/15.png', alt='', style="max-width: 100%;").mx-auto
+
+
 </template>
 
 <script>
