@@ -157,15 +157,39 @@
       .titulo-sexto.color-acento-contenido.mb-3
         h5 Figura 4. 
         span Torque de apriete para regular la holgura de los rodamientos   
-      .bg-color-1.px-4.pt-4.mb-1
+      .bg-color-1.px-4.pt-4.mb-5
         figure
           img(src='@/assets/curso/tema2/f4.svg', alt='Figura del ajuste del torque para regular la holgura de los rodamientos.', style="max-width: 446px;", data-aos="zoom-in").mx-auto
 
 
-      .titulo-tres(data-aos="flip-up").mb-5
-        h4 Regulación de los rodamientos en la corona
+    .titulo-tres(data-aos="flip-up").mb-5
+      h4 Regulación de los rodamientos en la corona
 
-      p(data-aos="fade-up").mb-4 Antes de ajustar la holgura entre el piñón impulsor y la corona, se debe regular la posición de los rodamientos de la corona dentro de su alojamiento. Este ajuste garantiza un giro libre sin juego axial y se realiza mediante tuercas de regulación en la mayoría de los sistemas.
+    p(data-aos="fade-up").mb-4 Antes de ajustar la holgura entre el piñón impulsor y la corona, se debe regular la posición de los rodamientos de la corona dentro de su alojamiento. Este ajuste garantiza un giro libre sin juego axial y se realiza mediante tuercas de regulación en la mayoría de los sistemas.
+
+    .bg-color-6.mb-5
+      .row.justify-content-center.align-items-start
+        .col-lg-6
+          .p-4
+            h4(data-aos="fade-up").mb-4 Procedimiento
+            ul.lista-ul--color(data-aos="fade-up")
+              li
+                | a) Separar inicialmente la corona del piñón impulsor para evitar alteraciones en la regulación.
+              li
+                | b) Acomodar las tuercas de regulación, permitiendo que las pistas externas se ajusten sobre los rodamientos cónicos.
+              li
+                | c) Girar las pistas de los rodamientos externos del porta corona y las tuercas de regulación, retirando los seguros hasta finalizar el ajuste.
+              li  
+                | d) En sistemas sin tuercas de regulación, utilizar rodelas o láminas de calibración insertadas detrás de las pistas externas para corregir la holgura.
+        .col-lg-6
+          .p-4.bg-color-1
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Figura 5. 
+              span Regulación entre el piñón y la corona   
+
+            figure
+              img(src='@/assets/curso/tema2/f5.svg', alt='Diagrama del ajuste entre el piñón y la corona en un mecanismo de transmisión.', style="max-width: 370px;", data-aos="zoom-in").mx-auto
+
 </template>
 
 <script>
