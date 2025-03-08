@@ -36,20 +36,8 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Diferencial de deslizamiento limitado (LSD)',
+        titulo: 'Comprobaciones previas y diagnóstico',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Diferencial con embragues',
-            hash: 't_1_1',
-          },
-          {
-            numero: '1.2',
-            titulo: 'Diferencial con engranajes',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',

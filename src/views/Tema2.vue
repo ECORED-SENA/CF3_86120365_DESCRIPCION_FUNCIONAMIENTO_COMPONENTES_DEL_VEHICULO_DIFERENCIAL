@@ -220,7 +220,7 @@
               span Detalle de las tuercas de regulación y la corona  
 
             figure
-              img(src='@/assets/curso/tema2/f6.svg', alt='Diagrama del ajuste entre el piñón y la corona en un mecanismo de transmisión.', style="max-width: 538px;", data-aos="zoom-in").mx-auto
+              img(src='@/assets/curso/tema2/f6.svg', alt='Detalle de las tuercas de regulación y la corona en un sistema mecánico', style="max-width: 538px;", data-aos="zoom-in").mx-auto
 
     .bg-full-width.bg-color-5.mb-5
       .p-4
@@ -269,7 +269,7 @@
               span Procedimiento de aplicación del tinte  
 
             figure
-              img(src='@/assets/curso/tema2/f7.svg', alt='Procedimiento de aplicación del tinte en la corona para verificar el asentamiento.', style="max-width: 538px;", data-aos="zoom-in").mx-auto
+              img(src='@/assets/curso/tema2/f7.svg', alt='Aplicación de tinte para verificar el asentamiento entre piñones y corona.', style="max-width: 538px;", data-aos="zoom-in").mx-auto
 
     .bg-full-width.bg-color-5.mb-5
       .p-4
@@ -316,7 +316,7 @@
               span Asentamientos que se presentan en los dientes de la corona
 
             figure
-              img(src='@/assets/curso/tema2/f8.svg', alt='Diagrama que muestra diferentes tipos de asentamiento en los dientes de la corona', style="max-width: 467px;", data-aos="zoom-in").mx-auto
+              img(src='@/assets/curso/tema2/f8.svg', alt='Tipos de asentamientos en los dientes de la corona de un engranaje.', style="max-width: 467px;", data-aos="zoom-in").mx-auto
 
     p(data-aos="fade-up").mb-4 Después de cualquier ajuste en la posición del piñón impulsor, es fundamental revisar el juego entre el piñón y la corona. Para ello:
 
@@ -392,7 +392,7 @@
             span Comprobación del estado de piñones  
 
           figure
-            img(src='@/assets/curso/tema2/f9.svg', alt='', style="max-width: 414px;").mx-auto
+            img(src='@/assets/curso/tema2/f9.svg', alt='Diagrama de comprobación del estado de los piñones satélites y planetarios.', style="max-width: 414px;").mx-auto
 
 
     p(data-aos="fade-up").my-4 El procedimiento de verificación es: 
