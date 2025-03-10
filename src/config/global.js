@@ -96,11 +96,13 @@ export default {
       tema: 'Comprobaciones previas y diagnóstico',
       referencia: 'Vangelder. (2018). Fundamentals of Automotive Technology.',
       tipo: 'Libro Capítulo 2 y 3',
-      link: 'https://books.google.com.co/books?id=gnE1DgAAQBAJ&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
+      link:
+        'https://books.google.com.co/books?id=gnE1DgAAQBAJ&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
     },
     {
       tema: 'Reparación del diferencial',
-      referencia: 'KyD Galat (2021). Lo que tienes que saber antes de reparar un diferencial. [Archivo de video] Youtube.',
+      referencia:
+        'KyD Galat (2021). Lo que tienes que saber antes de reparar un diferencial. [Archivo de video] Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=L0ZVq5qcLxI&ab_channel=KyDGalat',
     },
@@ -108,43 +110,53 @@ export default {
   glosario: [
     {
       termino: 'Corona',
-      significado: 'engranaje de gran tamaño que recibe la fuerza del piñón impulsor y la distribuye a los piñones satélites.',
+      significado:
+        'engranaje de gran tamaño que recibe la fuerza del piñón impulsor y la distribuye a los piñones satélites.',
     },
     {
       termino: 'Diferencial',
-      significado: 'mecanismo que permite que las ruedas de un vehículo giren a diferentes velocidades mientras se mantiene la tracción.',
+      significado:
+        'mecanismo que permite que las ruedas de un vehículo giren a diferentes velocidades mientras se mantiene la tracción.',
     },
     {
       termino: 'Holgura',
-      significado: 'distancia mínima permitida entre dos componentes del diferencial para su correcto funcionamiento.',
+      significado:
+        'distancia mínima permitida entre dos componentes del diferencial para su correcto funcionamiento.',
     },
     {
       termino: 'Juego entre piñón y corona',
-      significado: 'espacio necesario entre los dientes del piñón impulsor y la corona para evitar desgaste prematuro y ruidos.',
+      significado:
+        'espacio necesario entre los dientes del piñón impulsor y la corona para evitar desgaste prematuro y ruidos.',
     },
     {
       termino: 'Lubricante diferencial',
-      significado: 'aceite especializado que reduce la fricción y el desgaste en los engranajes y rodamientos del diferencial.',
+      significado:
+        'aceite especializado que reduce la fricción y el desgaste en los engranajes y rodamientos del diferencial.',
     },
     {
       termino: 'Piñón impulsor',
-      significado: 'engranaje que transmite el movimiento desde el eje de transmisión a la corona del diferencial.',
+      significado:
+        'engranaje que transmite el movimiento desde el eje de transmisión a la corona del diferencial.',
     },
     {
       termino: 'Prueba de carretera',
-      significado: 'evaluación del comportamiento del diferencial después de su reparación para verificar su correcto funcionamiento.',
+      significado:
+        'evaluación del comportamiento del diferencial después de su reparación para verificar su correcto funcionamiento.',
     },
     {
       termino: 'Rodamientos cónicos',
-      significado: 'componentes que permiten la rotación del diferencial con mínima fricción y soportan cargas axiales y radiales.',
+      significado:
+        'componentes que permiten la rotación del diferencial con mínima fricción y soportan cargas axiales y radiales.',
     },
     {
       termino: 'Satélites y planetarios',
-      significado: 'conjunto de engranajes dentro del diferencial que permiten la distribución del torque entre las ruedas motrices.',
+      significado:
+        'conjunto de engranajes dentro del diferencial que permiten la distribución del torque entre las ruedas motrices.',
     },
     {
       termino: 'Tubo espaciador',
-      significado: 'componente que mantiene la separación adecuada entre los rodamientos del piñón impulsor.',
+      significado:
+        'componente que mantiene la separación adecuada entre los rodamientos del piñón impulsor.',
     },
   ],
   referencias: [
@@ -154,9 +166,9 @@ export default {
       link: '',
     },
     {
-      referencia:
-        'Smith, A. (2018). <em>What is a locking differential?</em>',
-      link: 'https://www.cjponyparts.com/resources/locking-differentials-explained',
+      referencia: 'Smith, A. (2018). <em>What is a locking differential?</em>',
+      link:
+        'https://www.cjponyparts.com/resources/locking-differentials-explained',
     },
     {
       referencia:
