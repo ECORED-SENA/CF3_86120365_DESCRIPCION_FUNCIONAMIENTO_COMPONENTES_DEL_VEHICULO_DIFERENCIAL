@@ -93,87 +93,61 @@ export default {
   },
   complementario: [
     {
-      tema: 'Diferencial de deslizamiento limitado (LSD)',
-      referencia:
-        'Mentalidad De Ingeniería. (2022). LIMITADO DESLIZAR DIFERENCIAL. [Archivo de video] Youtube.',
+      tema: 'Comprobaciones previas y diagnóstico',
+      referencia: 'Vangelder. (2018). Fundamentals of Automotive Technology.',
+      tipo: 'Libro Capítulo 2 y 3',
+      link: 'https://books.google.com.co/books?id=gnE1DgAAQBAJ&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
+    },
+    {
+      tema: 'Reparación del diferencial',
+      referencia: 'KyD Galat (2021). Lo que tienes que saber antes de reparar un diferencial. [Archivo de video] Youtube.',
       tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=qy9yFqed0FQ&ab_channel=MentalidadDeIngenier%C3%ADa',
-    },
-    {
-      tema: 'Diferencial con embragues',
-      referencia: 'UGEARS. (s.f.). Maqueta mecánica diferencial.',
-      tipo: 'Documento',
-      link:
-        'https://ugearsmodels.com/image/pocket_study_guide/Differential-Pocket-Study-Guide-Ugears-STEM-lab-es.pdf?srslid=AfmBOopHyXAxhrpO2pZ83HEKROLq54_AdQKmlOO4GjCqgsNBQZtzGQK9',
-    },
-    {
-      tema: 'Diferencial con engranajes',
-      referencia:
-        'La Catarina – UDLAP. (). Aplicación de engranes cónicos en el sistema de potencia.',
-      tipo: 'Documento',
-      link:
-        'https://catarina.udlap.mx/u_dl_a/tales/documentos/lim/ramirez_j_m/capitulo5.pdf',
+      link: 'https://www.youtube.com/watch?v=L0ZVq5qcLxI&ab_channel=KyDGalat',
     },
   ],
   glosario: [
     {
-      termino: 'Bloqueo del diferencial',
-      significado:
-        'mecanismo que impide que una rueda gire libremente, mejorando la tracción en terrenos difíciles.',
+      termino: 'Corona',
+      significado: 'engranaje de gran tamaño que recibe la fuerza del piñón impulsor y la distribuye a los piñones satélites.',
     },
     {
-      termino: 'Diferencial de deslizamiento limitado (LSD)',
-      significado:
-        'mecanismo que distribuye el torque entre las ruedas motrices para mejorar la tracción en superficies resbaladizas.',
+      termino: 'Diferencial',
+      significado: 'mecanismo que permite que las ruedas de un vehículo giren a diferentes velocidades mientras se mantiene la tracción.',
     },
     {
-      termino: 'Diferencial torsen',
-      significado:
-        'sistema que usa engranajes sin fin y helicoidales para transferir torque a la rueda con mayor tracción.',
+      termino: 'Holgura',
+      significado: 'distancia mínima permitida entre dos componentes del diferencial para su correcto funcionamiento.',
     },
     {
-      termino: 'Embrague',
-      significado:
-        'conjunto de discos que permiten limitar el deslizamiento de las ruedas en diferenciales LSD.',
+      termino: 'Juego entre piñón y corona',
+      significado: 'espacio necesario entre los dientes del piñón impulsor y la corona para evitar desgaste prematuro y ruidos.',
     },
     {
-      termino: 'Engranajes helicoidales',
-      significado:
-        'tipo de engranaje con dientes inclinados que mejora la eficiencia y suavidad en la transmisión del movimiento.',
+      termino: 'Lubricante diferencial',
+      significado: 'aceite especializado que reduce la fricción y el desgaste en los engranajes y rodamientos del diferencial.',
     },
     {
-      termino: 'Fricción',
-      significado:
-        'resistencia al movimiento entre dos superficies en contacto, clave en los diferenciales LSD con embragues.',
+      termino: 'Piñón impulsor',
+      significado: 'engranaje que transmite el movimiento desde el eje de transmisión a la corona del diferencial.',
     },
     {
-      termino: 'Prueba de diagnóstico',
-      significado:
-        'procedimiento para identificar fallas en el diferencial mediante inspecciones y pruebas mecánicas.',
+      termino: 'Prueba de carretera',
+      significado: 'evaluación del comportamiento del diferencial después de su reparación para verificar su correcto funcionamiento.',
     },
     {
-      termino: 'Superficie resbaladiza',
-      significado:
-        'terreno con baja adherencia, como lodo o nieve, donde las ruedas pueden perder tracción.',
+      termino: 'Rodamientos cónicos',
+      significado: 'componentes que permiten la rotación del diferencial con mínima fricción y soportan cargas axiales y radiales.',
     },
     {
-      termino: 'Torque',
-      significado:
-        'fuerza de giro aplicada a un eje, fundamental en la transmisión de potencia en los vehículos.',
+      termino: 'Satélites y planetarios',
+      significado: 'conjunto de engranajes dentro del diferencial que permiten la distribución del torque entre las ruedas motrices.',
     },
     {
-      termino: 'Transmisión de potencia',
-      significado:
-        'proceso mediante el cual el motor transfiere energía a las ruedas a través del diferencial.',
+      termino: 'Tubo espaciador',
+      significado: 'componente que mantiene la separación adecuada entre los rodamientos del piñón impulsor.',
     },
   ],
   referencias: [
-    {
-      referencia:
-        'Aficionados a la mecánica. (2014). <em>Diferencial autoblocante.</em>',
-      link: '',
-    },
     {
       referencia:
         'Jones, D. & VanGelder, K. (2018). <em>Automotive electricity and electronics.</em> Burlington: Jones & Bartlett Learning.',
@@ -181,8 +155,8 @@ export default {
     },
     {
       referencia:
-        'Jones, J. & Christensen, K. (2017). <em>Traction aid: your guide to lockers, limited slip differential, and spools.</em>',
-      link: '',
+        'Smith, A. (2018). <em>What is a locking differential?</em>',
+      link: 'https://www.cjponyparts.com/resources/locking-differentials-explained',
     },
     {
       referencia:
@@ -227,13 +201,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Andrés Felipe Herrera Roldán',
+          nombre: 'Yerson Fabian Zarate Saavedra',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Cielo Angulo',
+          nombre: 'Cielo Damaris Angúlo Rodriguez',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
