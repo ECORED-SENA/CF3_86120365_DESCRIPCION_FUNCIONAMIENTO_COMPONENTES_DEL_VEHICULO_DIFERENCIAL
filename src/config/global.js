@@ -233,7 +233,7 @@ export default {
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Cielo Angulo',
+          nombre: 'Cielo Damaris Angulo Rodriguez',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
