@@ -25,7 +25,7 @@
 
     
     .row.justify-content-center.align-items-center.mb-5.bg-h80-p10
-      .col-lg-7
+      .col-xl-7.col-lg-9
         .tarjeta.bg-color-5.p-4(data-aos="fade-right").mb-4.mb-lg-0
 
           .row.justify-content-center.align-items-center
@@ -33,10 +33,10 @@
               figure
                 img(src='@/assets/curso/tema2/2.svg', alt='', style="max-width: 270px;", data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
             .col-lg
-              h5(data-aos="fade-up").mb-3(style="color: #F3D913") ¿Sabías qué?
               p(data-aos="fade-up").mb-4.text-white Lo invitamos a escuchar el siguiente Pódcast:
               TarjetaAudio.color-secundario.mb-3(
                 texto="Pasos para la reparación y mantenimiento"
+                tiempo
                 :audio="require('../assets/componentes/audios/audio-ej.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
@@ -75,10 +75,10 @@
       span Conjunto engranaje de mando final 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-xl-8
         .bg-color-1.p-4.mb-1
           figure
-            img(src='@/assets/curso/tema2/f2.png', alt='Diagrama del conjunto de engranaje de mando final. Se observa una corona de gran diámetro y un piñón impulsor acoplado a ella.', style="max-width: 370px;", data-aos="zoom-in")
+            img(src='@/assets/curso/tema2/f2.png', alt='Diagrama del conjunto de engranaje de mando final. Se observa una corona de gran diámetro y un piñón impulsor acoplado a ella.', style="max-width: 370px;", data-aos="zoom-in").mx-auto
         figcaption.bg-color-2.mb-4
           span Nota. VanGelder (2018). 
 
@@ -95,16 +95,16 @@
               p(data-aos="fade-up")
                 | El fabricante, por lo general, especifica la tolerancia o holgura recomendada en el dorso de la corona o en la cara frontal del piñón. Esta indicación permite que cualquier técnico pueda ensamblar el diferencial con la referencia adecuada, asegurando un ajuste preciso y un funcionamiento óptimo del sistema.
 
-      .col-lg-4
+      .col-xl-4.d-none.d-xl-block
         figure
           img(src="@/assets/curso/tema2/4.png", alt="", style="max-width: 100%;", data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
 
     .row.justify-content-center.align-items-start.mb-5
-      .col-lg-4
+      .col-xl-4.d-none.d-xl-block
         figure
           img(src="@/assets/curso/tema2/5.png", alt="", style="max-width: 100%;", data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
 
-      .col-lg-8
+      .col-xl-8
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 3. 
           span Marcas para el ensamble y tolerancia recomendada por el fabricante   
@@ -139,19 +139,19 @@
             .custom-image-card.bg-color-white
               img.custom-image-card__image(src="@/assets/curso/tema2/8.png" alt="")
               .custom-image-card__text.p-4
-                p.mb-0.text-center #[strong Ubicación y ajuste del piñón impulsor]
+                h4.mb-2.text-center #[strong Ubicación y ajuste del piñón impulsor]
                 p.mb-0.text-center Se encuentra alojado en la carcasa entre dos rodamientos cónicos. Debe ajustarse con precisión para garantizar una holgura adecuada para la circulación del aceite lubricante, un giro libre sin juegos axiales o radiales y un funcionamiento estable y duradero.
           .col-lg-4.mb-4(data-aos="zoom-in")
             .custom-image-card.bg-color-white
               img.custom-image-card__image(src="@/assets/curso/tema2/9.png" alt="")
               .custom-image-card__text.p-4
-                p.mb-0.text-center #[strong Función del tubo espaciador]
+                h4.mb-2.text-center #[strong Función del tubo espaciador]
                 p.mb-0.text-center Se instala entre los dos rodamientos del piñón y debe ser reemplazado en cada reparación o ajuste, ya que pierde su tensión tras el desmontaje. Su función es mantener la holgura exacta para los rodamientos cuando se aplica el torque recomendado a la tuerca del cono.
           .tarjeta.col-lg-4.mb-4(data-aos="zoom-in-left")
             .custom-image-card.bg-color-white
               img.custom-image-card__image(src="@/assets/curso/tema2/10.png" alt="")
               .custom-image-card__text.p-4
-                p.mb-0.text-center #[strong Regulación mediante arandelas de calibración]               
+                h4.mb-2.text-center #[strong Regulación mediante arandelas de calibración]               
                 p.mb-0.text-center Permiten el desplazamiento del cono sin afectar su ajuste, asegurando que el piñón impulsor engrane correctamente en el centro de la corona. Esto evita desgastes irregulares y prolonga la vida útil del sistema diferencial.
 
       .titulo-sexto.color-acento-contenido.mb-3
@@ -190,7 +190,7 @@
             figure
               img(src='@/assets/curso/tema2/f5.svg', alt='Diagrama del ajuste entre el piñón y la corona en un mecanismo de transmisión.', style="max-width: 370px;", data-aos="zoom-in").mx-auto
 
-    p(data-aos="fade-up").mb-4 Si las rodelas de calibración están detrás de los rodamientos fijos del porta corona, se deben insertar o retirar según sea necesario para garantizar el correcto desplazamiento del porta corona.
+    p(data-aos="fade-up").mb-5 Si las rodelas de calibración están detrás de los rodamientos fijos del porta corona, se deben insertar o retirar según sea necesario para garantizar el correcto desplazamiento del porta corona.
 
     .titulo-tres(data-aos="flip-up").mb-5
       h4 Regulación del juego entre piñón impulsor y corona
@@ -321,9 +321,9 @@
     p(data-aos="fade-up").mb-4 Después de cualquier ajuste en la posición del piñón impulsor, es fundamental revisar el juego entre el piñón y la corona. Para ello:
 
 
-    .row.mb-4
-      .col-12.col-md-6.mb-4.mb-md-0
-        .tarjeta.bg-color-5.p-4
+    .row.mb-4.align-items-stretch
+      .col-12.col-lg-6.mb-4
+        .tarjeta.bg-color-5.p-4.h-100
           .row.align-items-center
             .col-auto
               figure
@@ -331,8 +331,8 @@
             .col
               p.mb-0.text-white Retirar nuevamente la corona, apartándola del piñón al inicio del proceso de regulación.
 
-      .col-12.col-md-6
-        .tarjeta.bg-color-5.p-4
+      .col-12.col-lg-6.mb-4
+        .tarjeta.bg-color-5.p-4.h-100
           .row.align-items-center
             .col-auto
               figure
@@ -340,10 +340,10 @@
             .col
               p.mb-0.text-white Realizar la regulación del piñón impulsor de forma independiente, sin interferencias de la holgura final entre la corona y el cono.
 
-    .row.align-items-stretch
+    .row.align-items-stretch.mb-5
       .col-lg-5
         figure
-          img(src='@/assets/curso/tema2/14.png', alt='Imagen de limpieza de componentes mecánicos', style="max-width: 100%;").mx-auto
+          img(src='@/assets/curso/tema2/13.png', alt='Imagen de limpieza de componentes mecánicos', style="max-width: 100%;").mx-auto
 
       .col-lg-7
         .bg-color-7.p-4.h-100
@@ -397,31 +397,31 @@
 
     p(data-aos="fade-up").my-4 El procedimiento de verificación es: 
 
-    .row.mb-4.align-items-stretch
-      .col-12.col-md-4.mb-4.mb-md-0
+    .row.mb-4.align-items-stretch.justify-content-center
+      .col-12.col-lg-6.col-xl-4.mb-4.mb-md-4
         .tarjeta.bg-color-5.p-4.h-100
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/tema2/icon-2.svg", alt="", style="max-width: 90px;")
+                img(src="@/assets/curso/tema2/icon-2.svg", alt="", style="max-width: 90px;").mx-auto
             .col
               p.mb-0.text-white Instalar los piñones en su posición.
 
-      .col-12.col-md-4
+      .col-12.col-lg-6.col-xl-4.mb-4.mb-md-4
         .tarjeta.bg-color-5.p-4.h-100
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/tema2/icon-2.svg", alt="", style="max-width: 90px;")
+                img(src="@/assets/curso/tema2/icon-2.svg", alt="", style="max-width: 90px;").mx-auto
             .col
               p.mb-0.text-white Medir la holgura con un calibrador de láminas entre la superficie posterior del piñón y su alojamiento en el porta corona.
 
-      .col-12.col-md-4
+      .col-12.col-lg-6.col-xl-4.mb-4.mb-md-4
         .tarjeta.bg-color-5.p-4.h-100
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/tema2/icon-2.svg", alt="", style="max-width: 90px;")
+                img(src="@/assets/curso/tema2/icon-2.svg", alt="", style="max-width: 90px;").mx-auto
             .col
               p.mb-0.text-white Si la holgura es excesiva, instalar rodelas de compensación con las mismas características de las originales.
 

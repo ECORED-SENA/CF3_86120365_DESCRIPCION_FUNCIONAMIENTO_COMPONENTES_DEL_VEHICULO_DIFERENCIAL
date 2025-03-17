@@ -11,7 +11,7 @@
     .bg-full-width-2.bg-fondo-1
       .px-4.px-md-5.pb-4.pb-md-5
         .row
-          .col-lg-9
+          .col-xl-9
             p(data-aos="fade-left").mb-4 El mantenimiento del diferencial es fundamental para garantizar el correcto funcionamiento del sistema de transmisión de un vehículo. Factores como el desgaste natural de los componentes, el uso inadecuado y la falta de lubricación pueden generar fallas en este mecanismo, afectando el desempeño y la seguridad en la conducción.
 
             .bg-color-1.mb-4(data-aos="fade-up")
@@ -25,7 +25,7 @@
 
             p(data-aos="fade-left").mb-4 Además, se incluyen recomendaciones para prolongar la vida útil del diferencial, enfatizando la importancia del uso de lubricantes específicos y la realización de pruebas de funcionamiento tras cualquier intervención. Con este conocimiento, se busca optimizar el rendimiento del sistema y prevenir averías costosas en el futuro.
 
-          .col-lg-3
+          .col-xl-3.d-none.d-xl-block
             figure
               img(src="@/assets/curso/intro/2.png", alt="alt")
 

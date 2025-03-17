@@ -11,7 +11,7 @@
       .col-lg
         p(data-aos="fade-up").mb-4 Al detectar una anomalía en el diferencial, es preciso realizar comprobaciones previas antes de desmontar el conjunto. Para ello, se inicia con la revisión del nivel y estado del aceite, lo que permite identificar la presencia de limaduras ocasionadas por fricciones inadecuadas y el desgaste de los elementos del conjunto diferencial. Si es necesario, se debe completar el nivel de aceite con el tipo de lubricante recomendado por el fabricante para garantizar un funcionamiento adecuado y prolongar la vida útil de los componentes.
 
-      .col-lg-auto
+      .col-lg-auto.d-none.d-lg-block
         figure
           img(src="@/assets/curso/tema1/1.svg", alt="alt", style="max-width: 190px;")
 
@@ -59,7 +59,7 @@
                 alt=""
                 style="width: 90px"
               )
-              h5.mb-0.text-center Revisión del aceite
+              h4.mb-2.text-center Revisión del aceite
               p.mb-0.text-center Verificar el nivel y estado del aceite. Si es bajo, completar con el lubricante recomendado.
           
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
@@ -69,7 +69,7 @@
                 alt=""
                 style="width: 90px"
               )
-              h5.mb-0.text-center Detección de fugas
+              h4.mb-2.text-center Detección de fugas
               p.mb-0.text-center Inspeccionar si hay fugas de aceite. Si se encuentran, desmontar la tapa y limpiar el empaque o sellante dañado.
     
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
@@ -79,7 +79,7 @@
                 alt=""
                 style="width: 90px"
               )
-              h5.mb-0.text-center Comprobación del funcionamiento
+              h4.mb-2.text-center Comprobación del funcionamiento
               p.mb-0.text-center Revisar el ensamble del diferencial, inspeccionar los juegos de las piezas y detectar ruidos o vibraciones en condiciones de carga y sin carga.
 
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
@@ -89,7 +89,7 @@
                 alt=""
                 style="width: 90px"
               )
-              h5.mb-0.text-center Diagnóstico final
+              h4.mb-2.text-center Diagnóstico final
               p.mb-0.text-center Analizar los hallazgos para determinar las reparaciones necesarias.
 
 
@@ -115,13 +115,13 @@
                 ul.lista-ul--color
                   li.mb-2
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] piñones satélites y planetarios apretados con el alojamiento del mecanismo diferencial. Corrección: revisar el diferencial y realizar los ajustes o cambios necesarios.
+                    | #[b Causa posible:] piñones satélites y planetarios apretados con el alojamiento del mecanismo diferencial. #[strong Corrección:] revisar el diferencial y realizar los ajustes o cambios necesarios.
                   li.mb-2
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] piñones satélites o planetarios defectuosos. Corrección: revisar y reemplazar los piñones si es necesario.
+                    | #[b Causa posible:] piñones satélites o planetarios defectuosos. #[strong  Corrección:] revisar y reemplazar los piñones si es necesario.
                   li.mb-2
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] juego excesivo entre piñones planetarios y satélites. Corrección: ajustar o reemplazar los componentes desgastados.
+                    | #[b Causa posible:] juego excesivo entre piñones planetarios y satélites. #[strong  Corrección:] ajustar o reemplazar los componentes desgastados.
 
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-lg-2
