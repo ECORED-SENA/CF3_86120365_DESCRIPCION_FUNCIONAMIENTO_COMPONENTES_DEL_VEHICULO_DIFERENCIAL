@@ -37,7 +37,7 @@
               TarjetaAudio.color-secundario.mb-3(
                 texto="Pasos para la reparación y mantenimiento"
                 tiempo
-                :audio="require('../assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('../assets/componentes/audios/Podcast%20CF3-%20Descripción%20y%20funcionamiento%20de%20los%20componentes%20del%20vehículo%20(diferencial).mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
