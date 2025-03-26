@@ -133,10 +133,10 @@
                 ul.lista-ul--color
                   li.mb-2
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] la corona no funciona adecuadamente. Corrección: revisar el diferencial y reemplazar la corona defectuosa o los rodamientos del diferencial.
+                    | #[b Causa posible:] la corona no funciona adecuadamente. #[strong Corrección:] revisar el diferencial y reemplazar la corona defectuosa o los rodamientos del diferencial.
                   li.mb-2
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] rodamientos del diferencial sueltos o dañados. Corrección: ajustar o reemplazar los rodamientos.
+                    | #[b Causa posible:] rodamientos del diferencial sueltos o dañados. #[strong Corrección:] ajustar o reemplazar los rodamientos.
 
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-lg-2
@@ -148,16 +148,16 @@
                 ul.lista-ul--color
                   li.mb-2
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] aceite lubricante incorrecto. Corrección: verificar el tipo y clase de lubricante usado.
+                    | #[b Causa posible:] aceite lubricante incorrecto. #[strong Corrección:] verificar el tipo y clase de lubricante usado.
                   li.mb-2
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] nivel de aceite muy bajo. Corrección: revisar el nivel de aceite y agregar hasta el nivel adecuado.
+                    | #[b Causa posible:] nivel de aceite muy bajo. #[strong Corrección:] revisar el nivel de aceite y agregar hasta el nivel adecuado.
                   li.mb-2
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] dientes de la corona astillados o desgastados; rodamientos sueltos o desgastados. Corrección: revisar y reemplazar la corona, piñones o rodamientos.
+                    | #[b Causa posible:] dientes de la corona astillados o desgastados; rodamientos sueltos o desgastados. #[strong Corrección:] revisar y reemplazar la corona, piñones o rodamientos.
                   li.mb-2
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] corona y piñón impulsor no ajustados para el correcto contacto de los dientes. Corrección: ajustar corona y piñón para un correcto contacto de los dientes.
+                    | #[b Causa posible:] corona y piñón impulsor no ajustados para el correcto contacto de los dientes. #[strong Corrección:] ajustar corona y piñón para un correcto contacto de los dientes.
                   li.mb-2
                     i.fas.fa-arrow-circle-right
                     | #[b Causa posible:] demasiada o muy poca holgura entre la corona y el piñón.

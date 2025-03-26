@@ -37,7 +37,7 @@
               TarjetaAudio.color-secundario.mb-3(
                 texto="Pasos para la reparación y mantenimiento"
                 tiempo
-                :audio="require('../assets/componentes/audios/Podcast CF3- Descripción y funcionamiento de los componentes del vehículo (diferencial).mp3')"
+                :audio="require('../assets/componentes/audios/podcast.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -134,32 +134,32 @@
 
         p(data-aos="fade-up").mb-4 Después de verificar el estado de los componentes del diferencial y asegurarse de que están en condiciones óptimas o que se ha instalado un conjunto nuevo, se debe examinar la regulación del piñón impulsor y sus rodamientos dentro de la carcasa del sistema diferencial. Los ajuste y componentes clave: 
 
-        .row.mb-5
+        .row
           .col-lg-4.mb-4(data-aos="zoom-in-up")
             .custom-image-card.bg-color-white
               img.custom-image-card__image(src="@/assets/curso/tema2/8.png" alt="")
               .custom-image-card__text.p-4
-                h4.mb-2.text-center #[strong Ubicación y ajuste del piñón impulsor]
+                h4.mb-4.text-center #[strong Ubicación y ajuste del piñón impulsor]
                 p.mb-0.text-center Se encuentra alojado en la carcasa entre dos rodamientos cónicos. Debe ajustarse con precisión para garantizar una holgura adecuada para la circulación del aceite lubricante, un giro libre sin juegos axiales o radiales y un funcionamiento estable y duradero.
           .col-lg-4.mb-4(data-aos="zoom-in")
             .custom-image-card.bg-color-white
               img.custom-image-card__image(src="@/assets/curso/tema2/9.png" alt="")
               .custom-image-card__text.p-4
-                h4.mb-2.text-center #[strong Función del tubo espaciador]
+                h4.mb-4.text-center #[strong Función del tubo espaciador]
                 p.mb-0.text-center Se instala entre los dos rodamientos del piñón y debe ser reemplazado en cada reparación o ajuste, ya que pierde su tensión tras el desmontaje. Su función es mantener la holgura exacta para los rodamientos cuando se aplica el torque recomendado a la tuerca del cono.
           .tarjeta.col-lg-4.mb-4(data-aos="zoom-in-left")
             .custom-image-card.bg-color-white
               img.custom-image-card__image(src="@/assets/curso/tema2/10.png" alt="")
               .custom-image-card__text.p-4
-                h4.mb-2.text-center #[strong Regulación mediante arandelas de calibración]               
+                h4.mb-4.text-center #[strong Regulación mediante arandelas de calibración]               
                 p.mb-0.text-center Permiten el desplazamiento del cono sin afectar su ajuste, asegurando que el piñón impulsor engrane correctamente en el centro de la corona. Esto evita desgastes irregulares y prolonga la vida útil del sistema diferencial.
 
-      .titulo-sexto.color-acento-contenido.mb-3
-        h5 Figura 4. 
-        span Torque de apriete para regular la holgura de los rodamientos   
-      .bg-color-1.px-4.pt-4.mb-5
-        figure
-          img(src='@/assets/curso/tema2/f4.svg', alt='Figura del ajuste del torque para regular la holgura de los rodamientos.', style="max-width: 446px;", data-aos="zoom-in").mx-auto
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Figura 4. 
+      span Torque de apriete para regular la holgura de los rodamientos   
+    .bg-color-1.px-4.pt-4.mb-5
+      figure
+        img(src='@/assets/curso/tema2/f4.svg', alt='Figura del ajuste del torque para regular la holgura de los rodamientos.', style="max-width: 446px;", data-aos="zoom-in").mx-auto
 
 
     .titulo-tres(data-aos="flip-up").mb-5
