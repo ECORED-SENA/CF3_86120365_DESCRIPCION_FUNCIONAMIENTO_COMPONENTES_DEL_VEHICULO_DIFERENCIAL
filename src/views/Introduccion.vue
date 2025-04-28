@@ -2,7 +2,7 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.mb-0.overflow-hidden
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
@@ -25,9 +25,9 @@
 
             p(data-aos="fade-left").mb-4 Además, se incluyen recomendaciones para prolongar la vida útil del diferencial, enfatizando la importancia del uso de lubricantes específicos y la realización de pruebas de funcionamiento tras cualquier intervención. Con este conocimiento, se busca optimizar el rendimiento del sistema y prevenir averías costosas en el futuro.
 
-          .col-xl-3.d-none.d-xl-block
+          .col-xl-3.d-none.d-xl-block(data-aos="fade-left")
             figure
-              img(src="@/assets/curso/intro/2.png", alt="alt")
+              img(src="@/assets/curso/intro/2.png", alt="")
 
 </template>
 
@@ -37,6 +37,14 @@ export default {
   data: () => ({
     // variables de vue
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

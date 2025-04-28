@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.overflow-hidden
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Reparación del diferencial
@@ -79,8 +79,7 @@
         .bg-color-1.p-4.mb-1
           figure
             img(src='@/assets/curso/tema2/f2.png', alt='Diagrama del conjunto de engranaje de mando final. Se observa una corona de gran diámetro y un piñón impulsor acoplado a ella.', style="max-width: 370px;", data-aos="zoom-in").mx-auto
-        figcaption.bg-color-2.mb-4
-          span Nota. VanGelder (2018). 
+        figcaption.mt-2.mb-4 #[b Nota.] VanGelder (2018).
 
         p(data-aos="fade-up").mb-4
           | Este enfoque garantiza que el diferencial conserve su precisión y desempeño original, evitando problemas de desajuste que puedan comprometer la durabilidad del sistema.
@@ -111,6 +110,7 @@
         .bg-color-1.p-4.mb-1
           figure
             img(src='@/assets/curso/tema2/f3.svg', alt='Diagrama de engranajes con marcas de ensamblaje y tolerancia recomendada.', style="max-width: 682px;", data-aos="zoom-in")
+        figcaption.mt-2.mb-4 #[b Nota.] Marcas para el ensamble y tolerancia recomendada por el fabricante. (s.f.). [Imagen].
 
         p(data-aos="fade-up").mb-4.mt-3 Para lograr un ensamblaje correcto, es fundamental seguir las marcas y referencias proporcionadas por el fabricante. No obstante, antes de realizar el montaje final, es necesario llevar a cabo ajustes individuales en cada componente: primero en el cono, luego en la corona y, por último, en el conjunto completo.
 
@@ -157,9 +157,10 @@
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Figura 4. 
       span Torque de apriete para regular la holgura de los rodamientos   
-    .bg-color-1.px-4.pt-4.mb-5
+    .bg-color-1.px-4.pt-4
       figure
         img(src='@/assets/curso/tema2/f4.svg', alt='Figura del ajuste del torque para regular la holgura de los rodamientos.', style="max-width: 446px;", data-aos="zoom-in").mx-auto
+    figcaption.mt-2.mb-5 #[b Nota.] Torque de apriete para regular la holgura de los rodamientos. (s.f.). [Imagen].
 
 
     .titulo-tres(data-aos="flip-up").mb-5
@@ -179,7 +180,7 @@
                 | #[strong b)] Acomodar las tuercas de regulación, permitiendo que las pistas externas se ajusten sobre los rodamientos cónicos.
               li
                 | #[strong c)] Girar las pistas de los rodamientos externos del porta corona y las tuercas de regulación, retirando los seguros hasta finalizar el ajuste.
-              li  
+              li
                 | #[strong d)] En sistemas sin tuercas de regulación, utilizar rodelas o láminas de calibración insertadas detrás de las pistas externas para corregir la holgura.
         .col-lg-6
           .p-4.bg-color-1
@@ -189,6 +190,7 @@
 
             figure
               img(src='@/assets/curso/tema2/f5.svg', alt='Diagrama del ajuste entre el piñón y la corona en un mecanismo de transmisión.', style="max-width: 370px;", data-aos="zoom-in").mx-auto
+            figcaption.mt-2 #[b Nota.] Regulación entre el piñón y la corona. (s.f.). [Imagen].
 
     p(data-aos="fade-up").mb-5 Si las rodelas de calibración están detrás de los rodamientos fijos del porta corona, se deben insertar o retirar según sea necesario para garantizar el correcto desplazamiento del porta corona.
 
@@ -204,15 +206,15 @@
             h4(data-aos="fade-up").mb-4 Pasos para la regulación
             ul.lista-ul--color(data-aos="fade-up")
               li
-                | #[strong a)] Empujar la corona contra el piñón impulsor girando la tuerca de regulación superior.
+                | #[strong a)]  Empujar la corona contra el piñón impulsor girando la tuerca de regulación superior.
               li
-                | #[strong b)] Aflojar simultáneamente la tuerca opuesta para mantener la regulación de los rodamientos.
+                | #[strong b)]  Aflojar simultáneamente la tuerca opuesta para mantener la regulación de los rodamientos.
               li
-                | #[strong c)] Contar con precisión el número de vueltas aplicadas en las tuercas de ajuste.
+                | #[strong c)]  Contar con precisión el número de vueltas aplicadas en las tuercas de ajuste.
               li
-                | #[strong d)] Utilizar un reloj micrométrico para medir la holgura entre los dientes de la corona y el piñón impulsor.
+                | #[strong d)]  Utilizar un reloj micrométrico para medir la holgura entre los dientes de la corona y el piñón impulsor.
               li
-                | #[strong e)] Verificar que la distancia entre ambos componentes se encuentre dentro de los valores recomendados por el fabricante.
+                | #[strong e)]  Verificar que la distancia entre ambos componentes se encuentre dentro de los valores recomendados por el fabricante.
         .col-lg-6.order-lg-1
           .p-4.bg-color-1.h-100
             .titulo-sexto.color-acento-contenido.mb-3
@@ -221,6 +223,7 @@
 
             figure
               img(src='@/assets/curso/tema2/f6.svg', alt='Detalle de las tuercas de regulación y la corona en un sistema mecánico', style="max-width: 538px;", data-aos="zoom-in").mx-auto
+            figcaption.mt-2 #[b Nota.] Detalle de las tuercas de regulación y la corona. (s.f.). [Imagen].
 
     .bg-full-width.bg-color-5.mb-5
       .p-4
@@ -231,10 +234,10 @@
           .col-lg
             h4(data-aos="fade-up").mb-2.text-white Consideraciones:
             ul.lista-ul--color.color-dark.mb-4
-              li.mb-0.text-white
+              li.mb-0.text-white.d-flex
                 i.fas.fa-arrow-circle-right
                 | Un ajuste demasiado apretado genera fricción excesiva.
-              li.mb-0.text-white
+              li.mb-0.text-white.d-flex
                 i.fas.fa-arrow-circle-right
                 | Un ajuste holgado provoca vibraciones y fallos en el engranaje.
       
@@ -256,20 +259,20 @@
                 | #[strong b)] Hacer girar el piñón varias veces hasta registrar las marcas de asentamiento.
               li
                 | #[strong c)] Evaluar la distribución de las marcas:
-              li.ms-4
+              li.ms-4.d-flex
                 i.fas.fa-arrow-circle-right
                 | Si el piñón está demasiado afuera, agregar una arandela detrás del rodamiento interior y retirar otra del mismo espesor en la parte posterior.
-              li.ms-4
+              li.ms-4.d-flex
                 i.fas.fa-arrow-circle-right
                 | Si el piñón está demasiado adentro, retirar la arandela interior y agregar otra en la parte posterior.
         .col-lg-6.order-lg-1
           .p-4.bg-color-1.h-100
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 7. 
-              span Procedimiento de aplicación del tinte  
-
+              span Procedimiento de aplicación del tinte
             figure
               img(src='@/assets/curso/tema2/f7.svg', alt='Aplicación de tinte para verificar el asentamiento entre piñones y corona.', style="max-width: 538px;", data-aos="zoom-in").mx-auto
+            figcaption.mt-2 #[b Nota.] Procedimiento de aplicación del tinte. (s.f.). [Imagen].
 
     .bg-full-width.bg-color-5.mb-5
       .p-4
@@ -291,22 +294,22 @@
           .p-4
             h4(data-aos="fade-up").mb-4 Si el piñón impulsor está demasiado afuera:
             ul.lista-ul--color(data-aos="fade-up").color-dark.mb-4
-              li
+              li.d-flex
                 i.fas.fa-arrow-circle-right
                 | Sustituir las rodelas o arandelas de calibración manteniendo sus espesores.
-              li
+              li.d-flex
                 i.fas.fa-arrow-circle-right
                 | Instalar una nueva arandela detrás del rodamiento interior para permitir que el cono ingrese más.
-              li
+              li.d-flex
                 i.fas.fa-arrow-circle-right
                 | Retirar una arandela en la parte posterior con el mismo espesor para mantener la distancia entre los rodamientos del piñón.
 
             h4(data-aos="fade-up").mb-4 Si el piñón impulsor está demasiado adentro:
             ul.lista-ul--color(data-aos="fade-up").color-dark.mb-4
-              li
+              li.d-flex
                 i.fas.fa-arrow-circle-right
                 | Retirar la arandela interior.
-              li
+              li.d-flex
                 i.fas.fa-arrow-circle-right
                 | Instalar una nueva arandela en la parte posterior con el mismo espesor.
         .col-lg-6.order-lg-1
@@ -317,6 +320,7 @@
 
             figure
               img(src='@/assets/curso/tema2/f8.svg', alt='Tipos de asentamientos en los dientes de la corona de un engranaje.', style="max-width: 467px;", data-aos="zoom-in").mx-auto
+            figcaption.mt-2 #[b Nota.] Asentamientos que se presentan en los dientes de la corona. (s.f.). [Imagen].
 
     p(data-aos="fade-up").mb-4 Después de cualquier ajuste en la posición del piñón impulsor, es fundamental revisar el juego entre el piñón y la corona. Para ello:
 
@@ -350,13 +354,13 @@
           p.mb-4 Una vez realizada la regulación exacta, se deben seguir estos pasos para completar el procedimiento:
 
           ul.lista-ul--color(data-aos="fade-up").color-dark
-            li
+            li.d-flex
               i.fas.fa-arrow-circle-right
               | Limpiar todas las partes para eliminar residuos y asegurar un correcto funcionamiento.
-            li
+            li.d-flex
               i.fas.fa-arrow-circle-right
               | Lubricar adecuadamente los componentes del diferencial.
-            li
+            li.d-flex
               i.fas.fa-arrow-circle-right
               | Reajustar todos los pernos y tuercas de regulación para garantizar que el ensamblaje cumpla con las especificaciones requeridas.
 
@@ -372,13 +376,13 @@
           h4(data-aos="fade-up").mb-4 Elementos a revisar
           
           ul.lista-ul--color(data-aos="fade-up").color-dark
-            li
+            li.d-flex
               i.fas.fa-arrow-circle-right
               | Estado de las arandelas de regulación.
-            li
+            li.d-flex
               i.fas.fa-arrow-circle-right
               | Desgaste o ralladuras en los dientes de los piñones.
-            li
+            li.d-flex
               i.fas.fa-arrow-circle-right
               | Holguras entre los piñones satélites y planetarios.
             
@@ -393,6 +397,7 @@
 
           figure
             img(src='@/assets/curso/tema2/f9.svg', alt='Diagrama de comprobación del estado de los piñones satélites y planetarios.', style="max-width: 414px;").mx-auto
+          figcaption.mt-2 #[b Nota.] Comprobación del estado de piñones. (s.f.). [Imagen].
 
 
     p(data-aos="fade-up").my-4 El procedimiento de verificación es: 
@@ -438,22 +443,21 @@
           p.mb-4 Para garantizar un mantenimiento adecuado del diferencial, se deben seguir las siguientes recomendaciones:
 
           ul.lista-ul--color(data-aos="fade-up").color-dark
-            li
+            li.d-flex
               i.fas.fa-arrow-circle-right
               | Verificar el nivel de aceite regularmente y cambiarlo en el intervalo recomendado por el fabricante.
-            li
+            li.d-flex
               i.fas.fa-arrow-circle-right
               | Usar el tipo de lubricante indicado por el fabricante.
-            li
+            li.d-flex
               i.fas.fa-arrow-circle-right
               | Seguir estrictamente las recomendaciones del fabricante en cada reparación.
-            li
+            li.d-flex
               i.fas.fa-arrow-circle-right
               | Realizar una prueba de carretera después de completar la reparación para verificar su correcto funcionamiento.
       .col-lg-5
         figure
           img(src='@/assets/curso/tema2/15.png', alt='', style="max-width: 100%;").mx-auto
-
 
 </template>
 

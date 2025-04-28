@@ -77,7 +77,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF3_MANTENIMIENTO_DEL_DIFERENCIAL.pdf',
+        download: 'downloads/86120365_CF03_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -187,7 +187,7 @@ export default {
         },
         {
           nombre: 'Olga Constanza Bermudez Jaimes',
-          cargo: 'Responsable de línea de producción Huila',
+          cargo: 'Responsable de línea de producción',
           centro: 'Dirección General',
         },
       ],

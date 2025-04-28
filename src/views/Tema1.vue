@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Comprobaciones previas y diagnóstico
@@ -11,21 +11,20 @@
       .col-lg
         p(data-aos="fade-up").mb-4 Al detectar una anomalía en el diferencial, es preciso realizar comprobaciones previas antes de desmontar el conjunto. Para ello, se inicia con la revisión del nivel y estado del aceite, lo que permite identificar la presencia de limaduras ocasionadas por fricciones inadecuadas y el desgaste de los elementos del conjunto diferencial. Si es necesario, se debe completar el nivel de aceite con el tipo de lubricante recomendado por el fabricante para garantizar un funcionamiento adecuado y prolongar la vida útil de los componentes.
 
-      .col-lg-auto.d-none.d-lg-block
+      .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/1.svg", alt="alt", style="max-width: 190px;")
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-8
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1. 
           span Inspección del estado y nivel de aceite         
 
-        .bg-color-1.p-4.mb-5
+        .bg-color-1.p-4
           figure.mb-2
             img(src='@/assets/curso/tema1/f1.png', alt='La figura muestra dos pasos: en el primero, se afloja el tapón de drenaje con una llave; en el segundo, se observa la salida de aceite, indicando su nivel y condición.', style="max-width: 770px;", data-aos="zoom-in")
-          figcaption.bg-color-2
-            span Nota. VanGelder (2018). 
+        figcaption.mt-2 #[b Nota.] VanGelder (2018). 
 
 
     .bg-full-width-2.bg-fondo-2
@@ -113,15 +112,18 @@
                 h4 Ruido únicamente en curvas
                 
                 ul.lista-ul--color
-                  li.mb-2
+                  li.mb-2.d-flex
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] piñones satélites y planetarios apretados con el alojamiento del mecanismo diferencial. #[strong Corrección:] revisar el diferencial y realizar los ajustes o cambios necesarios.
-                  li.mb-2
+                    |
+                    p.mb-0 #[b Causa posible:] piñones satélites y planetarios apretados con el alojamiento del mecanismo diferencial. #[strong Corrección:] revisar el diferencial y realizar los ajustes o cambios necesarios.
+                  li.mb-2.d-flex
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] piñones satélites o planetarios defectuosos. #[strong  Corrección:] revisar y reemplazar los piñones si es necesario.
-                  li.mb-2
+                    |
+                    p.mb-0 #[b Causa posible:] piñones satélites o planetarios defectuosos. #[strong  Corrección:] revisar y reemplazar los piñones si es necesario.
+                  li.mb-2.d-flex
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] juego excesivo entre piñones planetarios y satélites. #[strong  Corrección:] ajustar o reemplazar los componentes desgastados.
+                    |
+                    p.mb-0 #[b Causa posible:] juego excesivo entre piñones planetarios y satélites. #[strong  Corrección:] ajustar o reemplazar los componentes desgastados.
 
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-lg-2
@@ -131,12 +133,14 @@
                 h4 Ruido intermitente
                 
                 ul.lista-ul--color
-                  li.mb-2
+                  li.mb-2.d-flex
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] la corona no funciona adecuadamente. #[strong Corrección:] revisar el diferencial y reemplazar la corona defectuosa o los rodamientos del diferencial.
-                  li.mb-2
+                    |
+                    p.mb-0 #[b Causa posible:] la corona no funciona adecuadamente. #[strong Corrección:] revisar el diferencial y reemplazar la corona defectuosa o los rodamientos del diferencial.
+                  li.mb-2.d-flex
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] rodamientos del diferencial sueltos o dañados. #[strong Corrección:] ajustar o reemplazar los rodamientos.
+                    |
+                    p.mb-0 #[b Causa posible:] rodamientos del diferencial sueltos o dañados. #[strong Corrección:] ajustar o reemplazar los rodamientos.
 
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-lg-2
@@ -146,24 +150,26 @@
                 h4 Ruido constante
                 
                 ul.lista-ul--color
-                  li.mb-2
+                  li.mb-2.d-flex
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] aceite lubricante incorrecto. #[strong Corrección:] verificar el tipo y clase de lubricante usado.
-                  li.mb-2
+                    |
+                    p.mb-0 #[b Causa posible:] aceite lubricante incorrecto. #[strong Corrección:] verificar el tipo y clase de lubricante usado.
+                  li.mb-2.d-flex
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] nivel de aceite muy bajo. #[strong Corrección:] revisar el nivel de aceite y agregar hasta el nivel adecuado.
-                  li.mb-2
+                    |
+                    p.mb-0 #[b Causa posible:] nivel de aceite muy bajo. #[strong Corrección:] revisar el nivel de aceite y agregar hasta el nivel adecuado.
+                  li.mb-2.d-flex
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] dientes de la corona astillados o desgastados; rodamientos sueltos o desgastados. #[strong Corrección:] revisar y reemplazar la corona, piñones o rodamientos.
-                  li.mb-2
+                    |
+                    p.mb-0 #[b Causa posible:] dientes de la corona astillados o desgastados; rodamientos sueltos o desgastados. #[strong Corrección:] revisar y reemplazar la corona, piñones o rodamientos.
+                  li.mb-2.d-flex
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] corona y piñón impulsor no ajustados para el correcto contacto de los dientes. #[strong Corrección:] ajustar corona y piñón para un correcto contacto de los dientes.
-                  li.mb-2
+                    |
+                    p.mb-0 #[b Causa posible:] corona y piñón impulsor no ajustados para el correcto contacto de los dientes. #[strong Corrección:] ajustar corona y piñón para un correcto contacto de los dientes.
+                  li.mb-2.d-flex
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] demasiada o muy poca holgura entre la corona y el piñón.
-                  li.mb-2
-                    i.fas.fa-arrow-circle-right
-                    | #[b Corrección:] ajustar la holgura de los engranajes.
+                    |
+                    p.mb-0 #[b Causa posible:] demasiada o muy poca holgura entre la corona y el piñón. #[b Corrección:] ajustar la holgura de los engranajes.
 
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-lg-2
@@ -173,16 +179,14 @@
                 h4 Las ruedas traseras no conducen el movimiento
                 
                 ul.lista-ul--color
-                  li.mb-2
+                  li.mb-2.d-flex
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] eje de transmisión roto. Corrección: reemplazar el eje roto.
-                  li.mb-2
+                    |
+                    p.mb-0 #[b Causa posible:] eje de transmisión roto. #[b Corrección:] reemplazar el eje roto.
+                  li.mb-2.d-flex
                     i.fas.fa-arrow-circle-right
-                    | #[b Causa posible:] dientes de la corona pelados, piñones satélites o planetarios rotos o alojamiento del mecanismo diferencial roto.
-                  li.mb-2
-                    i.fas.fa-arrow-circle-right
-                    | #[b Corrección:] revisar y reemplazar la corona, piñones o el alojamiento del mecanismo diferencial.
-
+                    |
+                    p.mb-0 #[b Causa posible:] dientes de la corona pelados, piñones satélites o planetarios rotos o alojamiento del mecanismo diferencial roto. #[b Corrección:] revisar y reemplazar la corona, piñones o el alojamiento del mecanismo diferencial.
 
 </template>
 
@@ -192,6 +196,14 @@ export default {
   data: () => ({
     mostrarIndicadorTarjetaAudio: true,
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

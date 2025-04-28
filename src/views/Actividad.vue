@@ -21,6 +21,8 @@ export default {
       titulo: 'Cuestionario',
       introduccion:
         '<b>Objetivo:</b> Identificar los procedimientos de diagnóstico, mantenimiento y reparación del diferencial.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       barajarPreguntas: true,
       preguntas: [
         {
